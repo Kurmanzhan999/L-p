@@ -1,0 +1,153 @@
+@media (max-width: 1260px) {
+  .info_item {
+    padding: 30px;
+  }
+  .info_title {
+    font-size: 16px;
+  }
+  .info_text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1000px) {
+  .info_title {
+    letter-spacing: unset;
+  }
+  .about_block {
+    padding-right: 30px;
+  }
+  .services_content {
+    height: 400px;
+  }
+}
+@media (max-width: 992px) {
+  .section {
+    margin-bottom: 30px;
+  }
+  .header_logo img {
+    height: 55px;
+  }
+  .intro_content {
+    height: 530px;
+    justify-content: center;
+  }
+  .intro_block {
+    text-align: center;
+  }
+  .intro_title {
+    font-size: 34px;
+  }
+  .info_item {
+    padding: 20px;
+  }
+  .process_title {
+    font-size: 100px;
+    margin-bottom: 10px;
+  }
+  .process_subtitle {
+    padding-top: 10px;
+    padding-bottom: 16px;
+  }
+  .about_image {
+    margin-top: 20px;
+  }
+  .about_text {
+    text-align: justify;
+  }
+  .process_item {
+    text-align: center;
+    min-height: 0 auto;
+    padding: 20px 12px;
+  }
+  .services_content {
+    height: 300px;
+  }
+  .services_content_item {
+    display: none;
+  }
+  .services_content::after {
+    display: none;
+  }
+  .about_wrapper {
+    flex-direction: column;
+  }
+  .about_link {
+    font-size: 12px;
+  }
+}
+@media (max-width: 850px) {
+  .info {
+    transform: translateY(-75px);
+  }
+  .wrapper {
+    flex-wrap: wrap;
+  }
+  .block {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .info_item {
+    text-align: center;
+  }
+  .services_content {
+    height: 450px;
+    background-position: center;
+  }
+  .block_title {
+    text-align: center;
+  }
+  .contact_form {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+@media (max-width: 560) {
+  .services_content {
+    height: 300px;
+  }
+  .process_title {
+    font-size: 72px;
+  }
+  .process_subtitle {
+    font-size: 25px;
+  }
+  .footer_wrapper {
+    height: auto;
+    padding: 30px 0;
+    flex-direction: column;
+  }
+  .copyright {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form_row {
+    margin: 0 -10px;
+    flex-direction: column;
+  }
+  .form_group {
+    padding: 0 -10px;
+  }
+}
+@media (max-width: 400px) {
+  .block_title {
+    font-size: 23px;
+  }
+}
+@media (max-width: 460px) {
+  .info_title {
+    font-size: 26px;
+  }
+  .block_title {
+    font-size: 24px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .process_subtitle {
+    font-size: 12px;
+  }
+}
